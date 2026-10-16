@@ -1,4 +1,4 @@
-function Profile({ followers, rate }) {
+function Profile() {
   return (
     <div className="flex items-end justify-between bg-[#F5E7C6] px-20 py-10">
       <header>
@@ -40,7 +40,7 @@ function Profile({ followers, rate }) {
             Reset
           </button>
         </div>
-        
+
     </div>
   );
 }
