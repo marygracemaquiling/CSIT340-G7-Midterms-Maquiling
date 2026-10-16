@@ -1,4 +1,6 @@
-function Profile() {
+import { Hire } from "./Hire";
+
+function Profile({ followers, rate }) {
   return (
     <div className="flex items-end justify-between bg-[#F5E7C6] px-20 py-10">
       <header>
@@ -41,6 +43,7 @@ function Profile() {
           </button>
         </div>
 
+        <Hire rate={rate} />
     </div>
   );
 }
